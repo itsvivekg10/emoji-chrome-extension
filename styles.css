@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 300px;
+  padding: 10px;
+}
+
+#search {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#emojiList {
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.emoji {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  display: inline-block;
+}

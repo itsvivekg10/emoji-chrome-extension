@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Emoji Finder",
+  "version": "1.0",
+  "description": "Find and copy emojis to clipboard",
+  "permissions": ["clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Emoji Finder"
+  }
+}
